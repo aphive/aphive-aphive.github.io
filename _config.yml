@@ -2,7 +2,7 @@ theme: jekyll-theme-chirpy
 
 baseurl: ''
 lang: en
-timezone: Asia/Shanghai
+timezone: America/Chicago
 
 # ↓ --------------------------
 title: Aphive
@@ -13,7 +13,7 @@ github:
 
 social:
   name: Aphive
-  email: example@doamin.com
+  email: aphive@protonmail.com
   links:
     - https://github.com/aphive
 

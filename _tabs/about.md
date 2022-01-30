@@ -4,5 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-note }
+Aphive is a Technology Suport site. Hoping that you find something helpful here.
+
+We also have a documentation site at [Aphive Docs](https://aphive.github.io/docs/), these two site will go hand in hand.
