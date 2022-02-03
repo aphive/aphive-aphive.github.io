@@ -4,7 +4,7 @@ author:
   name: Aphive
   link: https://github.com/aphive
 date: 2022-01-30 15:17:00
-categories: [ChromeOS, Setup, Printing]
+categories: [ChromeOS, Printing]
 tags: [chromeos, epson, printing]
 ---
 
@@ -31,7 +31,7 @@ The first thing you will want to do is assign your printer a static IP. For this
 -  Select **Print Status Sheet**.
 -  Select **Print**.
 
-Once you have your MAC Address, log into your router and go to the DHCP page. For me (remember I'm on pfSense), it's under Services -> DHCP4 Server. Click the add button and enter the details you are asked for.
+Once you have your MAC Address, log into your router and go to the DHCP page. For me (remember I'm on pfSense), it's under **Services** → **DHCP4 Server**. Click the add button and enter the details you are asked for.
 
 Now restart your printer and print another Network Status sheet as you did to get the MAC Address. Once you verify the printer was assigned the static IP Address, move on to the next section. If not, go back to your DHCP settings and make sure you entered everything right.
 
@@ -43,7 +43,7 @@ This is the easy part.
 
 *  Install Epson iPrint
 *  Launch iPrint
-* If you did the last part correct, iPrint should automatically discover the printer. If not continue.
+*  If you did the last part correct, iPrint should automatically discover the printer. If not continue.
 *  Click on the **Printer is not selected. Tap here to select a printer.** banner
 *  Your printer should show up in the **Local** tab, if not ...
 *  Click on the **Manual IP** tab
