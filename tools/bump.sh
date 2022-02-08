@@ -2,7 +2,6 @@
 #
 #
 # 1. Bump latest version number to the following files:
-#
 #   - _sass/jekyll-theme-chirpy.scss
 #   - _javascript/copyright
 #   - assets/js/dist/*.js (will be built by gulp later)
@@ -12,7 +11,6 @@
 # 2. Then create a commit to automatically save the changes.
 #
 # Usage:
-#
 #   Run on the default branch or hotfix branch
 #
 # Requires: Git, Gulp

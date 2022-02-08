@@ -4,9 +4,7 @@
 # cherry-pick the last commit on the main branch to the release branch,
 # and then create a tag and gem package on the release branch (naming format: 'release/<X.Y>').
 #
-#
 # Usage:
-#
 #   It can be run on main branch, and it should be used after just finishing the last feature in the version plan,
 #   or just after merging the hotfix to the main branch.
 #
