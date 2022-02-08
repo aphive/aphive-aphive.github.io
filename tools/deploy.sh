@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 #
 # Build, test and then deploy the site content to 'origin/<pages_branch>'
-#
 # Requirement: html-proofer, jekyll
-#
 # Usage: See help information
 
 set -eu

@@ -4,10 +4,10 @@ baseurl: ''
 lang: en-US
 timezone: America/Chicago
 
-# ↓ --------------------------
 title: Aphive
 tagline: The Aphive Blog
-url: ''
+url: 'https://aphive.github.io'
+
 github:
   username: aphive
 
@@ -22,7 +22,7 @@ avatar: 'https://avatars.githubusercontent.com/u/6079962?s=400&u=c1fdd7c55cf3cb4
 toc: true
 paginate: 10
 
-# ------------ The following options are not recommended to be modified ------------------
+# ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ DO NOT EDIT BELOW THIS LINE - DANGER LIVES HERE  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
 kramdown:
   syntax_highlighter: rouge
