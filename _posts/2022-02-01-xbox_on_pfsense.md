@@ -109,7 +109,14 @@ UPnP can also modify router settings to open ports into a firewall to facilitate
     * Click **Add** to add each device
 * Click **Save**
 
+### NAT
 
+NAT (Network Address Translation) is a mapping protocol that allows your devices on your private network to map traffic from their private IP to the public IP assigned by your ISP. This helps with the limitation of IPv4 addressing as it allows a network to have unlimited internal hosts but only 1 address exposed to the global public network. For this use, we will want to enable Pure NAT.
+
+As per pfsense:
+
+> Pure NAT:
+> Enables NAT Reflection using only NAT rules in pf to direct packets to the target of the port forward. It has better scalability, but it must be possible to accurately determine the interface and gateway IP address used for communication with the target at the time the rules are loaded. There are no inherent limits to the number of ports other than the limits of the protocols. All protocols available for port forwards are supported. If servers are on the same subnet as clients, the **Enable automatic outbound NAT for Reflection** option will mask the source of the traffic so it flows properly back through the firewall.
 
 * Click **System** → **Advanced** → **Firewall & NAT**
 * Look for and set NAT Reflection mode for port forwards to `Pure NAT`
@@ -124,11 +131,9 @@ The U.S Department of Homeland Security urged all businesses to disable their UP
 
 More details about UPnP-specific vulnerabilities can be found on the [Carnegie Mellon University website](https://www.kb.cert.org/vuls/id/339275).
 
-
 ## Required Ports
 
 This is why things get complicated without UPnP. This is not an exhaustive list of all the required ports for each gaming platform or game, it's just an example of why UPnP is needed and the complexity you would need to go through to setup manual port forwarding if you're a gamer.
-
 
 ### Destiny 2
 
@@ -217,5 +222,4 @@ This is why things get complicated without UPnP. This is not an exhaustive list 
     * TCP: 3074
     * UDP: 88, 500, 3074, 3544, 4500
 
-
-Just to play with the above in consideration you would need to port forward 69 ports individually. You see how that can become a chore, considering many homes have more than one gaming devices.
+Just to play with the above in consideration, you would need to port forward 69 ports individually. You see how that can become a chore, considering many homes have more than one gaming devices.
