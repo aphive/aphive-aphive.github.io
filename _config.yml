@@ -21,8 +21,16 @@ avatar: 'https://avatars.githubusercontent.com/u/6079962?s=400&u=c1fdd7c55cf3cb4
 
 toc: true
 paginate: 10
+mermaid: true
+
+
 
 # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ DO NOT EDIT BELOW THIS LINE - DANGER LIVES HERE  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+comments:
+  active: disqus
+  disqus:
+    shortname: aphive
 
 kramdown:
   syntax_highlighter: rouge
